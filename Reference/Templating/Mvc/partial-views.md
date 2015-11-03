@@ -52,7 +52,7 @@ The MVC template markup for the document:
 
 The partial view (located at: `~/Views/Partials/ChildItem.cshtml`)
 
-	@model IPublishedContent
+	@Model IPublishedContent
 
 	<strong>@Model.Name</strong>
 
